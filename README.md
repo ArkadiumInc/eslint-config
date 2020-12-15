@@ -1,7 +1,7 @@
 # @arkadiuminc/eslint-config
 
 [![npm version][npm-image]][npm-url]
-[![build status][github-actions-link]][github-actions-url]
+![Node.js Package](https://github.com/ArkadiumInc/eslint-config/workflows/Node.js%20Package/badge.svg)
 ![License][license]
 
 Airbnb's ESLint config with TypeScript and Prettier support.
