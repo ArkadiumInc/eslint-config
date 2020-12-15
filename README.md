@@ -7,17 +7,17 @@
 Airbnb's ESLint config with TypeScript and Prettier support.
 
 # How to use
-Install `typescript`, `eslint` and `prettier`, `eslint-config-airbnb-typescript-prettier` and put it into your `.eslintrc.js`.
+Install `typescript`, `eslint` and `prettier`, `eslint-config-arkadium` and put it into your `.eslintrc.js`.
 
 ```bash
-$ npm install typescript eslint prettier eslint-config-airbnb-typescript-prettier --save-dev
+$ npm install typescript eslint prettier eslint-config-arkadium --save-dev
 ```
 
 `.eslintrc.js`
 
 ```js
 module.exports = {
-  extends: "@arkadiuminc/eslint-config"
+  extends: "eslint-config-arkadium"
 };
 ```
 
@@ -25,6 +25,6 @@ module.exports = {
 
 Open source [licensed as MIT](https://github.com/@arkadiuminc/eslint-config/blob/master/LICENSE).
 
-[npm-image]: https://img.shields.io/npm/v/@arkadiuminc/eslint-config.svg
-[npm-url]: https://npmjs.org/package/@arkadiuminc/eslint-config
-[license]: https://img.shields.io/npm/l/@arkadiuminc/eslint-config.svg
+[npm-image]: https://img.shields.io/npm/v/eslint-config-arkadium.svg
+[npm-url]: https://npmjs.org/package/eslint-config-arkadium
+[license]: https://img.shields.io/npm/l/eslint-config-arkadium.svg
