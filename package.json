@@ -1,5 +1,5 @@
 {
-  "name": "@arkadiuminc/eslint-config",
+  "name": "eslint-config-arkadium",
   "version": "4.0.0",
   "description": "Airbnb's ESLint config with TypeScript and Prettier support",
   "main": "index.js",
