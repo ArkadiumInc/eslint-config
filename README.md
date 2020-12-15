@@ -1,4 +1,4 @@
-# @arkadiuminc/eslint-config
+# eslint-config-arkadium
 
 [![npm version][npm-image]][npm-url]
 ![Node.js Package](https://github.com/ArkadiumInc/eslint-config/workflows/Node.js%20Package/badge.svg)
