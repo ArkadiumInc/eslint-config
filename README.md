@@ -1,7 +1,7 @@
-# eslint-config-airbnb-typescript-prettier
+# @arkadiuminc/eslint-config
 
 [![npm version][npm-image]][npm-url]
-[![build status][circleci-image]][circleci-url]
+[![build status][github-actions-link]][github-actions-url]
 ![License][license]
 
 Airbnb's ESLint config with TypeScript and Prettier support.
@@ -17,16 +17,14 @@ $ npm install typescript eslint prettier eslint-config-airbnb-typescript-prettie
 
 ```js
 module.exports = {
-  extends: "airbnb-typescript-prettier"
+  extends: "@arkadiuminc/eslint-config"
 };
 ```
 
 ## License
 
-Open source [licensed as MIT](https://github.com/toshi-toma/eslint-config-airbnb-typescript-prettier/blob/master/LICENSE).
+Open source [licensed as MIT](https://github.com/@arkadiuminc/eslint-config/blob/master/LICENSE).
 
-[npm-image]: https://img.shields.io/npm/v/eslint-config-airbnb-typescript-prettier.svg
-[npm-url]: https://npmjs.org/package/eslint-config-airbnb-typescript-prettier
-[license]: https://img.shields.io/npm/l/eslint-config-airbnb-typescript-prettier.svg
-[circleci-image]: https://circleci.com/gh/toshi-toma/eslint-config-airbnb-typescript-prettier.svg?style=shield
-[circleci-url]: https://circleci.com/gh/toshi-toma/eslint-config-airbnb-typescript-prettier
+[npm-image]: https://img.shields.io/npm/v/@arkadiuminc/eslint-config.svg
+[npm-url]: https://npmjs.org/package/@arkadiuminc/eslint-config
+[license]: https://img.shields.io/npm/l/@arkadiuminc/eslint-config.svg
