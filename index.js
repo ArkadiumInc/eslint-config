@@ -19,7 +19,7 @@ module.exports = {
     "prettier/react",
     "prettier/@typescript-eslint"
   ],
-  plugins: ["react", "jsx-a11y", "import", "prettier", "@typescript-eslint"],
+  plugins: ["jsx-a11y"],
   globals: {},
   rules: {
     // prettier
