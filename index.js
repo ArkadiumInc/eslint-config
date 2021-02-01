@@ -12,42 +12,11 @@ module.exports = {
     es6: true
   },
   extends: [
-    "airbnb",
-    "airbnb/hooks",
     "plugin:@typescript-eslint/recommended",
-    "prettier",
-    "prettier/react",
-    "prettier/@typescript-eslint"
   ],
   plugins: ["jsx-a11y"],
   globals: {},
   rules: {
-    // prettier
-    "prettier/prettier": ["error"],
-    // TypeScript
-    "@typescript-eslint/no-unused-vars": "error",
-    "@typescript-eslint/explicit-member-accessibility": "off",
-    "@typescript-eslint/no-object-literal-type-assertion": "off",
-    // v4 changes
-    "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": ["error"],
-    "no-shadow": "off",
-    "@typescript-eslint/no-shadow": ["error"],
-    // React
-    "react/jsx-filename-extension": ["error", { extensions: [".tsx"] }],
-    "react/prop-types": ["off", {}],
-    // import
-    "import/extensions": [
-      "error",
-      "ignorePackages",
-      {
-        js: "never",
-        mjs: "never",
-        jsx: "never",
-        ts: "never",
-        tsx: "never"
-      }
-    ]
   },
   settings: {
     "import/resolver": {
