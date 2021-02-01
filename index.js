@@ -13,6 +13,7 @@ module.exports = {
   },
   extends: [
     "plugin:@typescript-eslint/recommended",
+    "plugin:jsx-a11y/recommended",
   ],
   plugins: ["jsx-a11y"],
   globals: {},
