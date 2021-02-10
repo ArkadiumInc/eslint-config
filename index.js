@@ -13,8 +13,9 @@ module.exports = {
   },
   extends: [
     "plugin:jsx-a11y/recommended",
+    "plugin:lit-a11y/recommended"
   ],
-  plugins: ["react", "jsx-a11y", "import", "prettier", "@typescript-eslint"],
+  plugins: ["react", "jsx-a11y", "lit-a11y", "import", "prettier", "@typescript-eslint"],
   globals: {},
   rules: {
   },
